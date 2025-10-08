@@ -43,7 +43,8 @@
               <p style="text-align:center">
                 <a href="mailto:linyark@hust.edu.cn">Email</a> &nbsp/&nbsp
                 <a href="https://github.com/linyark/">Github</a> &nbsp/&nbsp
-                <a href="https://www.zhihu.com/people/wo-de-na-ge-you-dian-da-58">知乎</a>
+                <a href="https://www.zhihu.com/people/wo-de-na-ge-you-dian-da-58">知乎</a> &nbsp/&nbsp
+                <a href="add_my_wechat:he_fengchen">Wechat</a>
               </p>
 
             </td>
@@ -66,7 +67,7 @@
               <li>03/2025: I have shared a ray-traced Dual-Pixel <a href="https://github.com/LinYark/Awesome_dualpixel_camera">simulator</a> detailing how to simulate realistic Dual-Pixel images.</li>
               <li>07/2024: I maintain a <a href="https://github.com/LinYark/Awesome_dualpixel_camera">repository</a> dedicated to awesome Dual-Pixel camera technology.</li>
               <li>09/2023: I commenced my doctoral journey at HUST.</li>
-              <li>03/2022: I work as an autofocus algorithm engineer at Xiaomi.</li>
+              <li>03/2022: I work as an Auto-Focus algorithm engineer at Xiaomi.</li>
             </p>
           </td>
         </tr>
@@ -81,8 +82,8 @@
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>Education & Working</heading>
             <p>
-              <li style="padding-bottom:5px">09/2023 - now:  Ph.D. in Optical Engineering, HUST, Wuhan, China.</li>
-              <li style="padding-bottom:5px">03/2022 - 09/2023: Autofocus engineer, Camera Department, Xiaomi, Shanghai, China.</li>
+              <li style="padding-bottom:5px">09/2023 - Now:  Ph.D. in Optical Engineering, HUST, Wuhan, China.</li>
+              <li style="padding-bottom:5px">03/2022 - 09/2023: Algorithm Engineer on Auto-Focus, Camera Department, Xiaomi, Shanghai, China.</li>
               <li style="padding-bottom:5px">09/2019 - 03/2022: M.Sc. in Optical Engineering, NJUST, Nanjing, China.</li>
               <li style="padding-bottom:5px">09/2015 - 06/2019: B.Sc. in Optical Engineering, NJUST, Nanjing, China.</li>
             </p>
@@ -95,10 +96,10 @@
         <!-- Research -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+            <td style="padding:20px;width:100%;vertical-align:top">
+              <heading>Research & Project</heading>
               <p>
-                I am conducting simulations of Dual-Pixel cameras and then applying them to various applications.
+                I am conducting simulations of cameras and then applying them to various applications.
                 <li>Computational Dual-Pixel cameras.</li>
                 <li>Optical imaging system.</li>
                 <li>Depth est, deblur, and so on.</li>
@@ -108,13 +109,12 @@
         </tbody>
         </table>
 
-
         <!-- Publications -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
         <!-- ============================================================================== -->
           <tr onmouseout="Sdirt_stop()" onmouseover="Sdirt_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;width:25%;vertical-align:top">
               <div class="one">
                 <div class="two" id='Sdirt'><img src='my_images/0_Sdirt_1.png'></div>
                 <img src='my_images/0_Sdirt_0.png'>
@@ -129,20 +129,151 @@
                 Sdirt_stop()
               </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding:20px;width:75%;vertical-align:top">
                 <a href="https://arxiv.org/abs/2503.11213">
                   <papertitle>Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation</papertitle>
                 </a>
               <br>
               <b>Fengchen He</b>, <a href="http://github.com/zhaodayang">Dayang Zhao, <a href="https://github.com/Immortallis1">Hao Xu</a>, <a href="http://faculty.hust.edu.cn/quantingwei/zh_CN/index.htm">Tingwei Quan</a>, <a href="http://faculty.hust.edu.cn/zengshaoqun/zh_CN/index.htm">Shaoqun Zeng</a>
               <br>
-              <em>ICCV 2025. </b> <a href="https://arxiv.org/abs/2503.11213">Paper (Arxiv)</a> / <a href="papers/sdirt.pdf">Paper (PDF)</a> / <a href="https://github.com/LinYark/Sdirt">Github</a> / <a href="https://linyark.github.io/Sdirt/">Website</a> </em>
+              <em>ICCV 2025. </b> <a href="https://arxiv.org/abs/2503.11213">Paper (Arxiv)</a>, <a href="papers/sdirt.pdf">Paper (PDF)</a>, <a href="https://github.com/LinYark/Sdirt">Github</a>, <a href="https://linyark.github.io/Sdirt/">Website</a> </em>
               <br>
               <p></p>
               <p>
                 <li>The ray-traced DP PSF simulator calculates the spatially varying DP PSF.</li>
-                <li>The pixel-wise DP image rendering module narrows the gap between simulated and real DP images.</li>
-                <li>Released a DP-depth paired real test set DP119, with an open lens structure and fixed focus.</li>
+                <li>The pixel-wise DP image rendering module outputs realistic DP simulated images.</li>
+                <li>The depth estimation model trained with Sdirt generalizes better.</li>
+                <li>Released a real test set DP119, with an open lens structure and fixed focus.</li>
+              </p>
+            </td>
+          </tr>
+
+          <!-- ###################################################################### -->
+          <tr onmouseout="af_stop()" onmouseover="af_start()">
+            <td style="padding:20px;width:5%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='af'><img src='my_images/2023_af_1.jpeg'></div>
+                <img src='my_images/2023_af_0.jpeg'>
+              </div>
+              <script type="text/javascript">
+                function af_start() {
+                  document.getElementById('af').style.opacity = "1";
+                }
+                function af_stop() {
+                  document.getElementById('af').style.opacity = "0";
+                }
+                af_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+                  <papertitle>Auto-Focus Algorithm</papertitle>
+              <br>
+                <p>
+                  <li>Phase, contrast, ToF, and AI autofocus.</li>
+                  <li>The CamX part of autofocus.</li>
+                  <li>Participated in: Xiaomi Mix Fold 2 and 3, Redmi K60 Pro and K70 Pro.</li>
+                </p>
+            </td>
+          </tr>
+
+          <!-- ###################################################################### -->
+          <tr onmouseout="track_stop()" onmouseover="track_start()">
+            <td style="padding:20px;width:5%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='track'><img src='my_images/2022_track_1.jpeg'></div>
+                <img src='my_images/2022_track_0.jpeg'>
+              </div>
+              <script type="text/javascript">
+                function track_start() {
+                  document.getElementById('track').style.opacity = "1";
+                }
+                function track_stop() {
+                  document.getElementById('track').style.opacity = "0";
+                }
+                track_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+                <a href="https://github.com/LinYark/projects_in_master_period/tree/main/2project">
+                  <papertitle>SiamDL: Siamese Dual-Level Fusion Attention Network for RGBT Tracking</papertitle>
+                </a>
+              <br>
+              <b>Fengchen He</b>, Mingyang Chen, Xiaoyu Chen, Jing Han, Lianfa Bai
+              <br>
+              <a href="papers/siamdl.pdf">Paper</a>, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4209345">Preprint</a> in 2022s, <a href="https://github.com/LinYark/projects_in_master_period/tree/main/3article/siamdma">Github</a></em>
+              <br>
+                <p>
+                  <li>Cross-domain siamese attention updates templates with rich mode and time context.</li>
+                  <li>Dual-level balance module fuses feature and decision data to balance modal weights.</li>
+                  <li>Our SiamBAN-based method adds MDAM and DLBM, achieving competitive tracking results.</li>
+                </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="fly_stop()" onmouseover="fly_start()">
+            <td style="padding:20px;width:5%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='fly'><img src='my_images/2021_fly_1.jpeg'></div>
+                <img src='my_images/2021_fly_0.jpeg'>
+              </div>
+              <script type="text/javascript">
+                function fly_start() {
+                  document.getElementById('fly').style.opacity = "1";
+                }
+                function fly_stop() {
+                  document.getElementById('fly').style.opacity = "0";
+                }
+                fly_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+                <a href="https://github.com/LinYark/projects_in_master_period/tree/main/2project">
+                  <papertitle>Autonomous Remote Strike System</papertitle>
+                </a>
+              <br>
+               <a href="https://github.com/LinYark/projects_in_master_period/tree/main/2project">Intro repo</a>, based on Linux and Qt. Not a paper, just a project in 2021s.</em>
+              <br>
+              <em>System overview:</em>
+              <br>
+              <p>
+                <li>UAV equipped with TX2 and Realsense camera communicates via serial protocol.</li>
+                <li>At high altitude, detection and tracking algorithms lock the target object.</li>
+                <li>At low altitude, secondary detection extracts detailed target parts for tracking.</li>
+                <li>Depth maps from Realsense correct positioning, updating flight control.</li>
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="weld_stop()" onmouseover="weld_start()">
+            <td style="padding:20px;width:5%;vertical-align:top">
+              <div class="one">
+                <div class="two" id='weld'><img src='my_images/2020_weld_1.jpeg'></div>
+                <img src='my_images/2020_weld_0.jpeg'>
+              </div>
+              <script type="text/javascript">
+                function weld_start() {
+                  document.getElementById('weld').style.opacity = "1";
+                }
+                function weld_stop() {
+                  document.getElementById('weld').style.opacity = "0";
+                }
+                weld_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+                <a href="https://github.com/LinYark/projects_in_master_period/tree/main/1project">
+                  <papertitle>Automated Welding System</papertitle>
+                </a>
+              <br>
+               <a href="https://github.com/LinYark/projects_in_master_period/tree/main/1project">Intro repo</a>, based on Linux and Qt. Not a paper, just a project in 2020s.</em>
+              <br>
+              <em>System overview:</em>
+              <br>
+              <p>
+                <li>Parallel cameras extract 2D workpiece features via segmentation and edge detection.</li>
+                <li>Hand-eye calibration maps 2D features to robot coordinates, forming 3D point clouds.</li>
+                <li>OCR extracts workpiece names to retrieve matching real point clouds from the database.</li>
+                <li>Registration aligns real and captured clouds to locate accurate welding positions.</li>
               </p>
             </td>
           </tr>
